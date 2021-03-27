@@ -19,8 +19,8 @@ ContentVersion=${ShellDir}/version
 ContentNewTask=${ShellDir}/new_task
 ContentDropTask=${ShellDir}/drop_task
 SendCount=${ShellDir}/send_count
-ScriptsURL=https://github.com.cnpmjs.org/RikudouPatrickstar/jd_scripts
-ShellURL=https://github.com.cnpmjs.org/RikudouPatrickstar/jd-base
+ScriptsURL=https://github.com/l499477004/JD-scripts
+ShellURL=https://github.com/zhangkuang/jd-base
 
 
 ## 导入配置文件
@@ -142,7 +142,7 @@ function Notify_Version {
   ## 识别出两个文件的版本号
   VerConfSample=$(grep " Version: " ${FileConfSample} | perl -pe "s|.+v((\d+\.?){3})|\1|")
   [ -f ${FileConf} ] && VerConf=$(grep " Version: " ${FileConf} | perl -pe "s|.+v((\d+\.?){3})|\1|")
-  
+
   ## 删除旧的发送记录文件
   [ -f "${SendCount}" ] && [[ $(cat ${SendCount}) != ${VerConfSample} ]] && rm -f ${SendCount}
 
