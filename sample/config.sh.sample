@@ -122,7 +122,7 @@ export PUSH_PLUS_USER=""
 ## 6. 企业微信机器人消息推送 webhook 后面的 key，文档：https://work.weixin.qq.com/api/doc/90000/90136/91770
 export QYWX_KEY=""
 
-## 7. 企业微信应用消息推送的值，文档：https://work.weixin.qq.com/api/doc/90000/90135/90236 
+## 7. 企业微信应用消息推送的值，文档：https://work.weixin.qq.com/api/doc/90000/90135/90236
 ## 依次填上 corpid 的值，corpsecret 的值，touser 的值，agentid，media_id 的值，注意用,号隔开，例如："wwcff56746d9adwers,B-791548lnzXBE6_BWfxdf3kSTMJr9vFEPKAbh6WERQ,mingcheng,1000001,2COXgjH2UIfERF2zxrtUOKgQ9XklUqMdGSWLBoW_lSDAdafat"
 export QYWX_AM=""
 
@@ -317,7 +317,7 @@ export PURCHASE_SHOPS=""
 
 ##-------------------------------- 定义取关参数（选填） --------------------------------##
 ## jd_unsubscribe 这个任务是用来取关每天做任务关注的商品和店铺，默认在每次运行时取关 20 个商品和 20 个店铺
-## 如果取关数量不够，可以根据情况增加，还可以设置 jdUnsubscribeStopGoods 和 jdUnsubscribeStopShop 
+## 如果取关数量不够，可以根据情况增加，还可以设置 jdUnsubscribeStopGoods 和 jdUnsubscribeStopShop
 ## 商品取关数量
 goodPageSize=""
 ## 店铺取关数量
@@ -485,13 +485,7 @@ ForOtherCfd1=""
 ForOtherCfd2=""
 ForOtherCfd3=""
 
+## 京东手机狂欢城活动
+MyCarnivalcity1=""
 
-## 环球挑战赛
-MyGlobal1=""
-MyGlobal2=""
-MyGlobal3=""
-
-ForOtherGlobal1=""
-ForOtherGlobal2=""
-ForOtherGlobal3=""
-
+ForOtherCarnivalcity1=""
