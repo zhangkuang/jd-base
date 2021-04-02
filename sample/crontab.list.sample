@@ -58,7 +58,5 @@ ENV_PATH=
 36 8,18 * * * bash MY_PATH/jd.sh jd_syj
 55 23 * * * bash MY_PATH/jd.sh jd_unsubscribe
 39 7 * * * bash MY_PATH/jd.sh jx_sign
-0 8 22-31/1 3 * bash MY_PATH/jd.sh jd_nzmh
-0 0-18/6 * * * bash MY_PATH/jd.sh jd_carnivalcity
 
 # 以下为自动添加的任务
